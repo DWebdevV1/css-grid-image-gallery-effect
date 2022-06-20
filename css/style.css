@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000;
+}
+
+.bg__img {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    filter: blur(.5rem) opacity(.33);
+}
+
+.container {
+    width: 1600px;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 4rem 0;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    gap: 1rem;
+}
+
+.container__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: opacity(.88) grayscale(.66);
+    transition: .2s;
+    border: 1px solid rgba(255, 255, 255, .33);
+}
+
+.container__image:hover {
+    filter: opacity(99) brightness(1.25);
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+.container__image:nth-of-type(1) {
+    background: #000 url("../assets/images/01.jpg") center center/cover no-repeat;
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 2;
+}
+
+.container__image:nth-of-type(2) {
+    background: #000 url("../assets/images/02.jpg") center center/cover no-repeat;
+    grid-column: span 3;
+    grid-row: span 5;
+}
+
+.container__image:nth-of-type(3) {
+    background: #000 url("../assets/images/03.jpg") center center/cover no-repeat;
+    grid-column: span 2;
+    grid-row: span 3;
+}
+
+.container__image:nth-of-type(4) {
+    background: #000 url("../assets/images/04.jpg") center center/cover no-repeat;
+    grid-column: span 3;
+    grid-row: span 4;
+}
+
+.container__image:nth-of-type(5) {
+    background: #000 url("../assets/images/05.jpg") center center/cover no-repeat;
+    grid-column: span 2;
+    grid-row: span 4;
+}
+
+.container__image:nth-of-type(6) {
+    background: #000 url("../assets/images/06.jpg") center center/cover no-repeat;
+    grid-column: 1 / span 3;
+    grid-row: span 2;
+}
+
+.container__image:nth-of-type(7) {
+    background: #000 url("../assets/images/07.jpg") center center/cover no-repeat;
+    grid-column: 4 / span 3;
+    grid-row: 6 / span 2;
+}
+
+.container__image:nth-of-type(8) {
+    background: #000 url("../assets/images/08.jpg") center center/cover no-repeat;
+    grid-column: 4 / span 5;
+    grid-row: 8;
+}
