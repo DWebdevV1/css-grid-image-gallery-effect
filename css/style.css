@@ -1,3 +1,5 @@
+@import "images.css";
+
 * {
     padding: 0;
     margin: 0;
@@ -16,7 +18,6 @@ body {
     height: 100vh;
     filter: blur(.33rem) opacity(.66);
 }
-
 .container {
     width: 1600px;
     height: 100vh;
@@ -32,7 +33,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    filter: opacity(.88) grayscale(33%);
+    filter: opacity(.66) grayscale(33%);
     transition: .2s;
     border: 1px solid rgba(255, 255, 255, .33);
 }
