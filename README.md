@@ -4,6 +4,7 @@ An css image gallery with some effects
 - CSS Grid Image Gallery
 - Change Background Image on (Mouse-)Event
 - CSS animation with keyframes
+- Wallpapers from https://pixabay.com/images/search/wallpaper/
 
 ![Image Gallery](./assets/images/showcase00.png)
 
