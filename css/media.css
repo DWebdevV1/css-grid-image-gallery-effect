@@ -14,37 +14,6 @@
     .container__image:nth-of-type(5), .container__image:nth-of-type(6),
     .container__image:nth-of-type(7), .container__image:nth-of-type(8) {
         grid-column: span 2;
-    }
-
-    .container__image:nth-of-type(1) {
-        grid-row: span 2;
-    }
-
-    .container__image:nth-of-type(2) {
-        grid-row: span 2;
-    }
-
-    .container__image:nth-of-type(3) {
-        grid-row: span 2;
-    }
-
-    .container__image:nth-of-type(4) {
-        grid-row: span 2;
-    }
-
-    .container__image:nth-of-type(5) {
-        grid-row: span 2;
-    }
-
-    .container__image:nth-of-type(6) {
-        grid-row: span 2;
-    }
-
-    .container__image:nth-of-type(7) {
-        grid-row: span 2;
-    }
-
-    .container__image:nth-of-type(8) {
         grid-row: span 2;
     }
 }
