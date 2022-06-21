@@ -32,7 +32,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    filter: opacity(.66) grayscale(50%);
+    filter: opacity(.88) grayscale(33%);
     transition: .2s;
     border: 1px solid rgba(255, 255, 255, .33);
 }
